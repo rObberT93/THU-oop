@@ -23,31 +23,6 @@ public:
         cout << "(" << x << "," << y << ")" << endl;
     }
 
-    bool check(Line<T> const& l){
-        if(abs(y - l.k * x + l.b) < 1e-6){
-            return abs(x - l.k * y + l.b) < 1e-6;
-        }
-        return false;
-    }
-};
-
-
-template<>
-class Point<int> {
-public:
-    int x;
-    int y;
-    Point(int x, int y) : x(x), y(y) {}
-
-    void move(int dx, int dy) {
-        x += dx;
-        y += dy;
-    }
-
-    void show() {
-        cout << "(" << x << "," << y << ")" << endl;
-    }
-
     bool check(Line<int> const& l){
         if(y = l.k * x + l.b){
             return true;
