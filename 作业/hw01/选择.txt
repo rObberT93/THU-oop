@@ -1,8 +1,0 @@
-A
-AB
-C
-C
-A
-C
-BD
-ABC
