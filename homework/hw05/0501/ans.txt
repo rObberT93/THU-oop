@@ -1,0 +1,8 @@
+C
+D
+ACDE
+ACE
+ABCD
+ABDE
+DE
+A
